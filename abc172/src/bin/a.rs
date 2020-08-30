@@ -1,0 +1,1 @@
+fn main(){proconio::input!{n:u64};println!("{}",n+n*n+n*n*n)}
