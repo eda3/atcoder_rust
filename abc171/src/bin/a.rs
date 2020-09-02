@@ -1,3 +1,1 @@
-fn main() {
-    unimplemented!();
-}
+fn main(){proconio::input!{s:char};println!("{}",if s.is_lowercase(){"a"}else{"A"})}
