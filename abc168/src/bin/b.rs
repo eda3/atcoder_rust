@@ -1,3 +1,8 @@
 fn main() {
-    unimplemented!();
+  proconio::input!{k:usize,s:String};
+  if s.len()<=k{
+    println!("{}",s)
+  }else{
+    println!("{}...",&s[0..k])
+  }
 }
