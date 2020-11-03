@@ -10,5 +10,5 @@ fn main(){
     c = c.max(a[i+1] - a[i]);
     println!("{}",c);
   }
-  println!("{:?}",k-c);
+  println!("{}",k-c)
 }
