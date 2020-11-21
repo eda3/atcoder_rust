@@ -1,4 +1,4 @@
 fn main(){
-  proconio::input!{n:usize};
-  println!("{}",(n+1)/2)
+  proconio::input! {n:usize};
+  println!("{}", (n + 1) / 2)
 }
