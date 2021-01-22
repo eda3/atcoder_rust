@@ -1,7 +1,5 @@
 fn main(){
   proconio::input!{n:u32,m:usize,ss:[(usize, char);m]};
-  println!("n{:?}",n);
-  println!("sc{:?}",ss);
   let ans = (0..10i32.pow(n))
     .filter(|x| {
       let x = x.to_string().as_bytes().to_vec();
@@ -13,6 +11,5 @@ fn main(){
     })
     .next()
     .unwrap_or(-1);
-  dbg!(ans);
-  println!("{:?}",ans);
+  println!("{}",ans);
 }
